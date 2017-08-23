@@ -11,6 +11,7 @@ export default padLeft
  * @param {String} padWith - The character to use for padding
  * @return {String} - The padded string
  */
+/*For fun*/
 function padLeft(str, size, padWith) {
   if (size <= str.length) {
     return str
